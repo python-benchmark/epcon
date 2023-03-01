@@ -1,0 +1,58 @@
+Django~=2.2
+
+requests
+requests-oauthlib
+shortuuid
+
+django-classy-tags
+django_extensions
+django-model-utils<4.0
+django-crispy-forms
+
+django-taggit
+git+https://github.com/bennylope/django-taggit-labels#egg=django-taggit-labels
+
+python3-openid
+python-social-auth
+social-auth-app-django
+# Fixes https://github.com/python-social-auth/social-app-django/issues/178
+social-auth-core[openidconnect]
+
+markdown2
+
+# 3.7 DjangoCMS LTS release
+# Please note that django-cms relies on django-treebeard and version 4.5.1 of 
+# that package is incompatible: https://stackoverflow.com/questions/66776994/
+django-cms<3.8
+django-treebeard<4.5.1
+djangocms-admin-style
+djangocms-text-ckeditor
+django-filer
+git+https://github.com/pawelmarkowski/cmsplugin-filer#egg=cmsplugin-filer
+
+django-filebrowser-no-grappelli
+django-markitup
+
+# django settings enhancements
+python-decouple
+dj-database-url
+
+# phone numbers
+django-phonenumber-field
+phonenumbers
+
+# payments
+stripe
+
+WeasyPrint
+unicodecsv
+
+openpyxl
+ipython
+decorator
+
+lxml  # for currencies
+
+gunicorn
+
+anglicize

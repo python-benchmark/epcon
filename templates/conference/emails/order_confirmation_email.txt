@@ -1,0 +1,34 @@
+Hello!
+
+Thanks for buying tickets for EuroPython 2021.
+
+This is the summary of order {{ order.code }}:
+
+{% for item in order.orderitem_set.all %}
+{% if item.ticket %}Ticket number: {{ item.ticket.id }}{% endif %} – {{ item.code }} – {{ item.description }} € {{ item.price }}
+{% endfor %}
+
+
+Your tickets were created and are available on your profile page here:
+
+{{ user_panel_url }}
+
+Your invoice is also available on the same url.
+
+If you have purchased tickets for other attendees, please follow these
+steps to have them assigned to your attendees:
+
+https://ep2021.europython.eu/faq/#I-bought-the-ticket-for-someone-else-How-can-I-re-assign-it
+
+We will be running the conference using our chat server. Please follow
+the instructions on our website:
+
+https://ep2021.europython.eu/setup/chat-system/
+
+If you run into any issues, please contact us at helpdesk@europython.eu
+
+Kind regards,
+-- 
+EuroPython 2021 Team
+https://ep2021.europython.eu
+https://www.europython-society.org/

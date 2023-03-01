@@ -1,0 +1,39 @@
+{% extends "conference/base.html" %}
+
+{% load meta %}
+
+{% block meta %}
+{% render_meta title="Cannot find the request page" %}
+{% endblock meta %}
+
+{% load cms_tags %}
+
+{% block content %}
+<div id="content_page">
+    <div class="container">
+        <div class='row'>
+
+            <div class='col-md-9'>
+                <div id="content" class='epcms_content'>
+                    <h1>That's 404</h1>
+                    <p>Oops! We are sorry, the page you requested does not exist.</p>
+
+                    <p>Here are a few useful links:</p>
+                    <ul>
+                        <li>Our <a href="http://blog.europython.eu/">blog</a></li>
+                        <li>The <a href="{% page_url "submit-proposal" %}">call for proposals</a></li>
+                        <li>Our <a href="{% page_url "sponsor-europython" %}">sponsorship opportunities</a></li>
+                        <li><a href="{% page_url "faq" %}">Frequently asked questions</a> (F.A.Q.)</li>
+                        <li>... or get back to the <a href="/">EuroPython Home Page</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class='col-md-3' id="sidebar">
+            </div>
+
+        </div><!-- .row -->
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+Hello!
+
+Thanks for creating account for EuroPython 2021.
+
+Here's the link to activate your account:
+
+{{ verification_email_url }}
+
+Thanks,
+-- 
+EuroPython 2021 Team
+https://ep2021.europython.eu
