@@ -63,7 +63,7 @@ django-extensions==3.1.3
     # via -r requirements.in
 django-filebrowser-no-grappelli==3.8.0
     # via -r requirements.in
-django-filer==2.0.2
+django-filer==3.0.0rc1
     # via
     #   -r requirements.in
     #   cmsplugin-filer
