@@ -27,7 +27,7 @@ chardet==4.0.0
     # via requests
 git+https://github.com/pawelmarkowski/cmsplugin-filer#egg=cmsplugin-filer
     # via -r requirements.in
-cryptography==3.4.7
+cryptography==41.0.5
     # via social-auth-core
 cssselect2==0.4.1
     # via
