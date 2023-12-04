@@ -145,7 +145,7 @@ jedi==0.18.0
     # via ipython
 lxml==4.6.3
     # via -r requirements.in
-markdown2==2.4.0
+markdown2==2.4.11
     # via -r requirements.in
 matplotlib-inline==0.1.2
     # via ipython
