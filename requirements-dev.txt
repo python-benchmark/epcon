@@ -10,7 +10,7 @@ appdirs==1.4.4
     # via black
 attrs==21.2.0
     # via pytest
-black==21.6b0
+black==24.3.0
     # via -r requirements-dev.in
 certifi==2021.5.30
     # via
