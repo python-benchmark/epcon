@@ -135,7 +135,7 @@ html5lib==1.1
     # via
     #   djangocms-text-ckeditor
     #   weasyprint
-idna==2.10
+idna==3.7
     # via requests
 ipython-genutils==0.2.0
     # via traitlets
