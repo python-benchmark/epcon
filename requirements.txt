@@ -129,7 +129,7 @@ ecdsa==0.17.0
     # via python-jose
 et-xmlfile==1.1.0
     # via openpyxl
-gunicorn==20.1.0
+gunicorn==21.2.0
     # via -r requirements.in
 html5lib==1.1
     # via
