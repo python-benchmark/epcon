@@ -187,7 +187,7 @@ pyphen==0.10.0
     # via weasyprint
 python-decouple==3.4
     # via -r requirements.in
-python-jose==3.3.0
+python-jose==3.4.0
     # via social-auth-core
 python-social-auth==0.3.6
     # via -r requirements.in
